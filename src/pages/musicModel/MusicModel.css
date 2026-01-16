@@ -1,0 +1,65 @@
+/* * {
+  background-color: #000000;
+} */
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.component {
+  position: relative;
+  top:300px;
+  height: 500px;
+  background-color: rgb(0, 0, 0);
+  width: 25%;
+  max-width: 600px;
+  margin: 1em auto;
+  padding-bottom: 2em;
+  border: 0.1px solid rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+.musicCover {
+  border-radius: 10%;
+}
+
+.playButton {
+  background-color: #000000;
+  margin-top: 30px;
+  background: none;
+  border: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.subTitle {
+  background-color: #000000;
+  margin-top: -1em;
+  color: #4f4f4f;
+}
+
+.time {
+  background-color: #000000;
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  color: #828282;
+  font-size: smaller;
+}
+
+.timeline {
+  width: 80%;
+  background-color: #000000;
+}
+
+input[type="range"] {
+  background-color: #000000;
+}
+
+@media (max-width: 900px) {
+  .component {
+    width: 50%;
+  }
+}
